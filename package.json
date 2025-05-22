@@ -1,5 +1,11 @@
 {
   "dependencies": {
     "bcryptjs": "^3.0.2"
+  },
+  "scripts": {
+    "start": "chmod +x ./node_modules/.bin/react-scripts && react-scripts start",
+    "build": "chmod +x ./node_modules/.bin/react-scripts && react-scripts build",
+    "test": "chmod +x ./node_modules/.bin/react-scripts && react-scripts test",
+    "eject": "chmod +x ./node_modules/.bin/react-scripts && react-scripts eject"
   }
 }
